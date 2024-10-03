@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "ledFont";
+    src: url('../../../../public/fontFamily/LEDBDREV.TTF');
+}
+header{
+    @apply fixed top-0 w-full text-xl right-0 flex bg-black;
+    font-family: "ledFont";
+}
+header div{
+    @apply flex border justify-center items-center
+}
+header .titre{
+    @apply w-full
+}
+header .boiteButton{
+    @apply pl-2 pr-2 gap-2
+}

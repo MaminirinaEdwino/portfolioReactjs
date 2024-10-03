@@ -1,0 +1,50 @@
+.contact{
+    @apply mb-20
+}
+.contact h1{
+    @apply text-[50px] transition-all;
+    
+}
+.suivant{
+    animation: lettreChangeBg 2s linear infinite;
+}
+h1{
+    animation: lettreChangeBg 5s linear infinite;
+}
+.contactMe{
+    @apply p-2
+}
+.emailMoi form{
+    @apply flex flex-col p-2
+}
+.emailMoi input {
+    @apply rounded-md h-10 text-black pl-2
+}
+.emailMoi textarea{
+    @apply resize-none h-20 rounded-md
+}
+.emailMoi button{
+    @apply border border-white w-fit m-auto p-2 pl-4 pr-4 mt-1 rounded-md hover:bg-green-800 transition-all duration-500;
+    animation: lettreChangeBg 2s linear infinite;
+}
+@keyframes lettreChangeBg {
+    0%{
+        @apply text-green-500
+    }
+    20%{
+        @apply text-yellow-500
+    }
+    40%{
+        @apply text-orange-500
+    }
+    60%{
+        @apply text-red-500
+    }
+    80%{
+        @apply text-orange-500
+    }
+    100%{
+        @apply text-yellow-500
+    }
+    
+}

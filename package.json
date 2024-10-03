@@ -1,0 +1,42 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "app": "npx tailwind -i src/assets/App.css -o src/assets/dist/App.css --watch",
+    "pagePrincipale": "npx tailwind -i src/components/pagePrincipale/css/pagePrincipale.css -o src/components/pagePrincipale/css/dist/pagePrincipale.css --watch",
+    "menu": "npx tailwind -i src/components/menu/css/menu.css -o src/components/menu/css/dist/menu.css --watch",
+    "infoPerso": "npx tailwind -i src/components/infoPerso/css/infoPerso.css -o src/components/infoPerso/css/dist/infoPerso.css --watch",
+    "etudes": "npx tailwind -i src/components/etudes/css/etudes.css -o src/components/etudes/css/dist/etudes.css --watch",
+    "skills": "npx tailwind -i src/components/skills/css/skills.css -o src/components/skills/css/dist/skills.css --watch",
+    "projets": "npx tailwind -i src/components/projets/css/projets.css -o src/components/projets/css/dist/projets.css --watch",
+    "contacts": "npx tailwind -i src/components/contacts/css/contacts.css -o src/components/contacts/css/dist/contacts.css --watch",
+    "header": "npx tailwind -i src/components/header/css/header.css -o src/components/header/css/dist/header.css --watch"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.2.1",
+    "react-router-dom": "^6.24.1",
+    "scrollreveal": "^4.0.9",
+    "tailwindcss-animated": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4",
+    "vite": "^5.3.1"
+  }
+}

@@ -1,0 +1,33 @@
+.pagePrincipale{
+    @apply w-full  text-white
+}
+body{
+    @apply bg-black
+}
+@font-face {
+    font-family: "ledFont";
+    src: url('../../../../public/fontFamily/LEDBDREV.TTF');
+}
+@font-face {
+    font-family: "displayFont";
+    src: url('../../../../public/fontFamily/displayFont.ttf');
+}
+*{
+    @apply scroll-smooth text-white ;
+    font-family: 'displayFont';
+}
+.presentation, .bienvenue{
+    @apply text-[50px]  text-center  h-screen flex flex-col justify-center items-center  
+}
+.texteTerminale{
+    @apply font-mono w-full h-full text-lg absolute text-white text-start; 
+}
+.sousTitre{
+    @apply text-xl 
+}
+.flecheBas{
+    @apply text-4xl w-fit m-auto relative -top-24 animate-bounce font-bold
+}
+.suivant{
+    @apply relative -top-[5vh]
+}

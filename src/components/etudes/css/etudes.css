@@ -1,0 +1,15 @@
+.etudes{
+    @apply flex flex-wrap min-h-screen
+}
+.etudes h1{
+    @apply text-center w-full text-[50px]
+}
+.etudes article{
+    @apply min-w-[300px] max-w-[300px] border m-auto p-2 min-h-[250px]
+}
+.etudes .titre{
+    @apply text-[25px]
+}
+.etudes .details{
+    @apply text-xl
+}

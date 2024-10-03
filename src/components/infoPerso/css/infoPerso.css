@@ -1,0 +1,16 @@
+.information {
+    @apply flex flex-wrap min-h-screen items-center gap-5
+}
+
+.information article {
+    @apply min-w-[300px] max-w-[300px] m-auto flex flex-col min-h-[250px] border rounded-xl overflow-hidden
+}
+.det{
+    @apply text-lg p-4 
+}
+.detailsTitre {
+    @apply w-full text-center m-5 h-fit text-[50px] text-white 
+}
+.titreDetails{
+    @apply bg-white h-10 p-2 block align-middle text-blue-600 font-mono
+}

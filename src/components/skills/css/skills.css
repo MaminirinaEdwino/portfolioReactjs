@@ -1,0 +1,30 @@
+.skills{
+    @apply flex flex-wrap mb-10 gap-5
+}
+.skills .logo{
+    @apply text-[150px]
+}
+.skills h1{
+    @apply  text-center m-5 w-full text-[50px]
+}
+.skills article{
+    @apply min-w-[300px] max-w-[300px] m-auto flex flex-col text-center
+}
+.logo{
+    @apply w-fit m-auto
+}
+.skills .titre{
+    @apply text-xl
+}
+.tourne{
+    animation: tourner 5s infinite linear;
+    z-index: -1;
+}
+@keyframes tourner {
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
