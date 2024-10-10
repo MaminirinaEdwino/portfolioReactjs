@@ -1,6 +1,6 @@
 import PagePrincipale from "./components/pagePrincipale/pagePrincipale"
 
-import "./assets/dist/App.css"
+
 import Menu from "./components/menu/menu"
 import InfoPerso from "./components/infoPerso/infoPerso"
 import Etudes from "./components/etudes/etudes"
